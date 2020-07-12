@@ -16,4 +16,4 @@ In the Home page, you will see 1 buttons in the bottom right of the application.
 
 
 <img src="https://raw.githubusercontent.com/gssinghgautam/Medicine-Time-/master/arts/Screenshot_2017-08-03-16-16-17-091_com.gautam.medicinetime.mock.png"/> <img src="https://raw.githubusercontent.com/gssinghgautam/Medicine-Time-/master/arts/Screenshot_2017-08-03-16-16-06-694_com.gautam.medicinetime.mock.png"/> <img src="https://raw.githubusercontent.com/gssinghgautam/Medicine-Time-/master/arts/Screenshot_2017-08-03-16-16-28-924_com.gautam.medicinetime.mock.png"/>
->>>>>>> ce651f1... Firt commit
+
