@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeDrFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        >
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lattie_anim"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            app:lottie_rawRes="@raw/doctor"
+            android:layout_marginTop="60dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/background_border"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_below="@+id/lattie_anim"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/imageview1"
+                    android:layout_height="140dp"
+                    android:src="@drawable/checklist"
+                    android:layout_centerInParent="true"/>
+                <TextView
+                    android:id="@+id/profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Check patient list"
+                    android:textSize="16sp"
+                    android:layout_below="@id/imageview1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/buttonprofile"
+                    android:background="@android:color/transparent"
+                    />
+            </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Your Clinic Here"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp"
+            android:layout_marginRight="100dp"
+            android:layout_alignParentRight="true"
+            android:textSize="18sp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+
+            android:layout_marginRight="16dp"
+            android:layout_alignParentRight="true">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fabMain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:tint="@android:color/white"
+                app:fabSize="normal"
+                app:srcCompat="@drawable/ic_baseline_add_24" />
+
+
+        </LinearLayout>    </RelativeLayout>
+
+
+
+</RelativeLayout>

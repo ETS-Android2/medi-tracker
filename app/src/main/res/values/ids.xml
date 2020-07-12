@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="texttitle2" type="id" />
+    <item name="texttitle5" type="id" />
+    <item name="texttitle9" type="id" />
+    <item name="texttitle11" type="id" />
+    <item name="texttitle13" type="id" />
+    <item name="texttitle17" type="id" />
+    <item name="texttitle19" type="id" />
+    <item name="texttitle21" type="id" />
+    <item name="texttitle23" type="id" />
+</resources>

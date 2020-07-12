@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">MediTracker</string>
+    <string name="title_medicine_name">Medicine Name</string>
+    <string name="hint_enter_med_name">Enter Medicine</string>
+    <string name="medicine_days">Medicine Days</string>
+    <string name="title_treatment_deadline">Treatment deadline</string>
+    <string name="title_continuous_use">Continuous use</string>
+    <string name="title_reminder">Reminder</string>
+    <string name="new_medicine">NEW MEDICINE</string>
+    <string name="every_day">Every day</string>
+    <string name="no_medicine_added">No Medicine Added</string>
+    <string name="loading_tasks_error">Error while loading medicineAlarms</string>
+    <string name="successfully_saved_me_message">Medicine Added Successfully</string>
+    <string name="successfully_deleted_message">Medicine deleted Successfully</string>
+    <string name="reminder_message">It\'s Time to take your medicine</string>
+    <string name="ignored">IGNORED</string>
+    <string name="taken">TAKEN</string>
+    <string name="all">ALL</string>
+    <string name="menu_filter">Filter</string>
+    <string name="all_label">All Medicines</string>
+    <string name="ignore_label">Medicines Ignored</string>
+    <string name="taken_label">Medicine Taken</string>
+    <string name="no_history">No History Found</string>
+    <string name="no_taken_med_history">You have not taken any medicine</string>
+    <string name="no_ignored_history">Well Done</string>
+    <string name="menu_stats">Monthly Report</string>
+    <string name="Eat_a_variety_of_foods">
+For good health, we need more than 40 different nutrients, and no single food can supply them all. It is not about a single meal, it is about a balanced food choice over time that will make a difference!
+
+    A high-fat lunch could be followed by a low-fat dinner.
+    After a large meat portion at dinner, perhaps fish should be the next day’s choice?
+
+
+</string>
+    <string name="Base_your_diet_on_plenty_of_foods_rich_in_carbohydrates">
+
+About half the calories in our diet should come from foods rich in carbohydrates, such as cereals, rice, pasta, potatoes, and bread. It is a good idea to include at least one of these at every meal. Wholegrain foods, like wholegrain bread, pasta, and cereals, will increase our fibre intake.
+
+    </string>
+    <string name="Replace_saturated_with_unsaturated_fat">
+
+
+Fats are important for good health and proper functioning of the body. However, too much of it can negatively affect our weight and cardiovascular health. Different kinds of fats have different health effects, and some of these tips could help us keep the balance right:
+
+    We should limit the consumption of total and saturated fats (often coming from foods of animal origin), and completely avoid trans fats; reading the labels helps to identify the sources.
+    Eating fish 2-3 times a week, with at least one serving of oily fish, will contribute to our right intake of unsaturated fats.
+    When cooking, we should boil, steam or bake, rather than frying, remove the fatty part of meat, use vegetable oils.
+
+</string>
+
+    <string name="Enjoy_plenty_of_fruits_and_vegetables">
+
+Fruits and vegetables are among the most important foods for giving us enough vitamins, minerals and fibre. We should try to eat at least 5 servings a day. For example, a glass of fresh fruit juice at breakfast, perhaps an apple and a piece of watermelon as snacks, and a good portion of different vegetables at each meal.
+
+
+</string>
+    <string name="Reduce_salt_and_sugar_intake">
+
+A high salt intake can result in high blood pressure, and increase the risk of cardiovascular disease. There are different ways to reduce salt in the diet:
+
+    When shopping, we could choose products with lower sodium content.
+    When cooking, salt can be substituted with spices, increasing the variety of flavours and tastes.
+    When eating, it helps not to have salt at the table, or at least not to add salt before tasting.
+
+Sugar provides sweetness and an attractive taste, but sugary foods and drinks are rich in energy, and are best enjoyed in moderation, as an occasional treat. We could use fruits instead, even to sweeten our foods and drinks.
+
+</string>
+
+    <string name="Eat_regularly_control_the_portion_size">
+
+Eating a variety of foods, regularly, and in the right amounts is the best formula for a healthy diet.
+
+Skipping meals, especially breakfast, can lead to out-of-control hunger, often resulting in helpless overeating. Snacking between meals can help control hunger, but snacking should not replace proper meals. For snacks, we could choose yoghurt, a handful of fresh or dried fruits or vegetables (like carrot sticks), unsalted nuts, or perhaps some bread with cheese.
+
+Paying attention to portion size will help us not to consume too much calories, and will allow us to eat all the foods we enjoy, without having to eliminate any.
+
+    Cooking the right amount makes it easier to not overeat.
+    Some reasonable serving sizes are: 100 g of meat; one medium piece of fruit; half a cup of raw pasta.
+    Using smaller plates helps with smaller servings.
+    Packaged foods, with calorie values on the pack, could aid portion control.
+    If eating out, we could share a portion with a friend.
+
+
+</string>
+
+    <string name="Drink_plenty_of_fluids">
+
+Adults need to drink at least 1.5 litres of fluid a day! Or more if it\'s very hot or they are physically active. Water is the best source, of course, and we can use tap or mineral water, sparkling or non-sparkling, plain or flavoured. Fruit juices, tea, soft drinks, milk and other drinks, can all be okay - from time to time.
+
+</string>
+
+    <string name="Maintain_a_healthy_body_weight">
+
+The right weight for each us depends on factors like our gender, height, age, and genes. Being affected by obesity and overweight increases the risks of a wide range of diseases, including diabetes, heart diseases, and cancer.
+
+Excess body fat comes from eating more than we need. The extra calories can come from any caloric nutrient - protein, fat, carbohydrate, or alcohol, but fat is the most concentrated source of energy. Physical activity helps us spend the energy, and makes us feel good. The message is reasonably simple: if we are gaining weight, we need to eat less and be more active!
+
+
+</string>
+    <string name="Get_on_the_move_make_it_a_habit">
+
+
+Physical activity is important for people of all weight ranges and health conditions. It helps us burn off the extra calories, it is good for the heart and circulatory system, it maintains or increases our muscle mass, it helps us focus, and improves overall health well-being. We don\'t have to be top athletes to get on the move! 150 minutes per week of moderate physical activity is advised, and it can easily become part of our daily routine. We all could:
+
+    use the stairs instead of the elevator,
+    go for a walk during lunch breaks (and stretch in our offices in between)
+    make time for a family weekend activity
+
+
+</string>
+    <string name="Start_now_And_keep_changing_gradually">
+
+Gradual changes in our lifestyle are easier to maintain than major changes introduced all at once. For three days, we could write down the foods and drinks we consume throughout the day, and make a note of the amount of movement we made. It won’t be difficult to spot where we could improve:
+
+    Skipping breakfast? A small bowl of muesli, a piece of bread or fruit, could help slowly introduce it into our routine
+    Too few fruits and vegetables? To start with, we can introduce one extra piece a day.
+    Favourite foods high in fat? Eliminating them abruptly could fire back, and make us return to the old habits. We can choose low fat options instead, eat them less frequently, and in smaller portions.
+    Too little activity? Using the stairs daily could be a great first move.
+
+    </string>
+
+</resources>

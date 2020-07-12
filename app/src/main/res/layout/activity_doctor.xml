@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context=".DoctorActivity">
+
+    <FrameLayout
+        android:layout_above="@+id/bottom_nav_dr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dr_frame"
+        >
+
+    </FrameLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav_dr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/holo_red_light"
+        app:menu="@menu/menu_bottom" />
+
+
+
+</RelativeLayout>

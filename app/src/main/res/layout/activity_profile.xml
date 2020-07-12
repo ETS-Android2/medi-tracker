@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/regi_bg"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="Create Your Account"
+        android:layout_marginTop="70dp"
+        android:textColor="@android:color/primary_text_dark_nodisable"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/label"
+        android:id="@+id/linear_layout1"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginLeft="65dp"
+            android:textColor="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/edtname"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linear_layout1"
+        android:id="@+id/linear_layout2"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="65dp"
+            />
+
+        <EditText
+            android:id="@+id/edtSurname"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Username"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linear_layout2"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_marginLeft="65dp"
+            android:textColor="@android:color/black"
+            />
+
+        <EditText
+            android:id="@+id/edtemail"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Email ID"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linear_layout3"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile No."
+            android:layout_marginLeft="65dp"
+            android:textColor="@android:color/black"
+            />
+
+        <EditText
+        android:id="@+id/edtmo"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Mobile Mo."
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+        android:inputType="textEmailAddress" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_layout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linear_layout4"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="65dp"
+            />
+
+        <EditText
+            android:id="@+id/edtLocation"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="24dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Location"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_layout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linear_layout5"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="65dp"
+            />
+
+        <EditText
+            android:id="@+id/edtpass"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="11dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llswitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear_layout6"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="65dp"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+        <RadioButton
+            android:id="@+id/radiopatient"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:text="Patient"/>
+
+        <RadioButton
+            android:id="@+id/radioDoctor"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:text="Doctor"
+            />
+        <RadioButton
+            android:id="@+id/radioMedical"
+            android:layout_width="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_height="wrap_content"
+            android:text="Medical"
+            />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_layout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/llswitch"
+        >
+        <Button
+            android:id="@+id/updatebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Join Us"
+            android:textColor="@android:color/black"
+            android:background="@drawable/btn"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linear_layout7"
+        >
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:text="By Pressing 'Join Us' You agree\n    to our terms and conditions"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="85dp"
+
+            />
+    </LinearLayout>
+</RelativeLayout>

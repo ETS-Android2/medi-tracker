@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gautam.medicinetime">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/apk_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MedicalNotificationActivity"></activity>
+        <activity android:name=".MedicalProfileActivity" />
+        <activity android:name=".DrProfileActivity" />
+        <activity android:name=".PatientListActivity" />
+        <activity android:name=".MedicalMedicinesActivity" />
+        <activity android:name=".MedicalListActivity2" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".UserApointmentActivity" />
+        <activity android:name=".MedicalListActivity" />
+        <activity android:name=".SearchMedicalActivity" />
+        <activity android:name=".MedicalUserActivity" />
+        <activity android:name=".AddMedicalActivity" />
+        <activity android:name=".MedicineMedicalActivity" />
+        <activity android:name=".NotificationDrActivity" />
+        <activity android:name=".MedicalActivity" />
+        <activity android:name=".AppointmentSlotsActivity" />
+        <activity android:name=".ClinicAppointmentActivity" />
+        <activity android:name=".ClinicAppDrActivity" />
+        <activity android:name=".ClinicAppTomorrowActivity" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".AddClinicActivity" />
+        <activity android:name=".UserClinicActivity" />
+        <activity android:name=".HealthTipsActivity" />
+        <activity android:name=".UserProfileActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".medicines.UserMedicinesActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".DoctorActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".medicine.MedicineActivity" /> <!-- <activity android:name=".MainActivity" /> -->
+        <activity android:name=".addmedicine.AddMedicineActivity" />
+        <activity android:name=".alarm.ReminderActivity" />
+        <activity android:name=".report.MonthlyReportActivity" />
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

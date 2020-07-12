@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClinicAppointmentActivity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textv"
+        android:text="Text"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textv"
+        android:id="@+id/linear_layout1"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginLeft="65dp"
+            android:textColor="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/edtname"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linear_layout1"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_marginLeft="65dp"
+            android:textColor="@android:color/black"
+            />
+
+        <EditText
+            android:id="@+id/edtemail"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Email ID"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linear_layout3"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile No."
+            android:layout_marginLeft="65dp"
+            android:textColor="@android:color/black"
+            />
+
+        <EditText
+            android:id="@+id/edtmo"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Mobile Mo."
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_layout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/linear_layout5"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:layout_marginLeft="65dp"
+                android:textColor="@android:color/black"
+                />
+            <TextView
+                android:id="@+id/datepick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose Date"
+                android:layout_marginLeft="65dp"
+                android:textColor="@android:color/black"
+                />
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_layout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linear_layout4"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Time"
+            android:layout_marginLeft="40dp"
+            android:textColor="@android:color/black" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            >
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:spinnerMode="dropdown"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/linear_layout7">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                >
+                <TextView
+                    android:id="@+id/check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Important !! \nClick here to check time is taken or not"
+                    android:layout_marginLeft="40dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/holo_red_dark" />
+            </RelativeLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear_layout9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linear_layout8"
+        >
+        <Button
+            android:id="@+id/updatebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book your Appointment"
+            android:textColor="@android:color/black"
+            android:visibility="invisible"
+            android:background="@drawable/btn"
+            />
+    </LinearLayout>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/txt_slot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here to check remaining slots"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>

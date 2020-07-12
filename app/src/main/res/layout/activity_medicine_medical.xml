@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gautam.medicinetime.MedicineMedicalActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/medcial22"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/img"
+            />
+        <TextView
+            android:id="@+id/textv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add New Medicines Here "
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"
+            android:layout_below="@+id/img"
+            android:gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/textv"
+            android:id="@+id/linear_layout1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medicine Name"
+                android:layout_marginLeft="50dp"
+                android:textColor="@android:color/black"
+                />
+            <EditText
+                android:id="@+id/edtname"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:ems="10"
+                android:hint="Enter Medicine Name"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/linear_layout1"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medicine Price"
+                android:layout_marginLeft="60dp"
+                android:textColor="@android:color/black"
+                />
+
+            <EditText
+                android:id="@+id/edtprice"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Medcine Price"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_layout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/linear_layout3"
+            >
+            <TextView
+                android:id="@+id/done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:layout_marginLeft="65dp"
+                android:textColor="@android:color/black"
+                />
+
+            <LinearLayout
+                android:id="@+id/llswitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear_layout6"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="50dp">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radioavail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Available"
+                        android:saveEnabled="true"
+                        android:outlineSpotShadowColor="@color/black"
+                        android:textColor="@android:color/black"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/radionotavail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Currently Not Available"
+                        android:saveEnabled="false"
+                        android:layout_marginTop="7dp"
+                        android:outlineSpotShadowColor="@android:color/black"
+                        android:textColor="@android:color/black" />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/linear_layout4"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose Type"
+                android:layout_marginLeft="40dp"
+                android:textColor="@android:color/black" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                >
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/spinner_dose_units"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_weight="1"
+                    android:entries="@array/medications_shape_array" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linear_layout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/linear_layout5"
+            >
+            <Button
+                android:id="@+id/submitbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Medicine"
+                android:textColor="@android:color/black"
+                android:background="@drawable/btn"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
