@@ -48,3 +48,18 @@ Medicine Time is an native android application meant to aid the forgetful and bu
   <img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/doctor-appointment%20list.PNG"/>
   <img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/doctor-notification.PNG"/>
   </p>
+
+#### Medical Login:
+<p>
+  <img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/medical-home.PNG"/>
+  <img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/medical-menu.PNG"/>
+  </p>
+  <p>
+  Adding Medicines in medical:
+  <img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/medical-list.PNG"/>
+  <img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/medical-add-medi.PNG"/>
+  <img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/medical-medicines.PNG"/>
+  <img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/medical-noti.PNG"/>
+  </p>
+  
+<img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/thanks.PNG"/>
