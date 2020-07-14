@@ -17,9 +17,20 @@ Medicine Time is an native android application meant to aid the forgetful and bu
 <p><img src = "https://github.com/Rahulrkman/medi-tracker/blob/master/arts/patient1.PNG"/>
 <img src = "https://github.com/Rahulrkman/medi-tracker/blob/master/arts/patient2.PNG"/>
 <img src = "https://github.com/Rahulrkman/medi-tracker/blob/master/arts/patient-menu.PNG"/></p>
+<p>
+  <img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/patient-profile.PNG"/>
+  <img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/patient-notification.PNG"/>
+  <img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/patient-total-medi.PNG"/>
+  
+  </p>
 
 #### Medicine Reminder:
 <p><img src = "https://github.com/Rahulrkman/medi-tracker/blob/master/arts/patient4.PNG"/>
 <img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/patient%20alarm1.PNG"/>
 <img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/patient-medicine%20status.PNG"/>
 </p>
+
+#### Booking Appointment:
+<p><img src = "https://github.com/Rahulrkman/medi-tracker/blob/master/arts/patient-appointment.PNG"/>
+  <img src = "https://github.com/Rahulrkman/medi-tracker/blob/master/arts/patient-appointment-detaiils.PNG"/>
+  </p>
