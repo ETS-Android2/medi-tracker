@@ -12,6 +12,5 @@ Medicine Time is an native android application meant to aid the forgetful and bu
 
 To be reminded at a specific date/time, simply type a date into the command, for example:
 
-<img src="https://raw.githubusercontent.com/gssinghgautam/Medicine-Time-/master/arts/Screenshot_2017-08-03-16-16-17-091_com.gautam.medicinetime.mock.png"/> <img src="https://raw.githubusercontent.com/gssinghgautam/Medicine-Time-/master/arts/Screenshot_2017-08-03-16-16-06-694_com.gautam.medicinetime.mock.png"/> <img src="https://raw.githubusercontent.com/gssinghgautam/Medicine-Time-/master/arts/Screenshot_2017-08-03-16-16-28-924_com.gautam.medicinetime.mock.png"/>
 <img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/home.PNG"/>
 
