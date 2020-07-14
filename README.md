@@ -44,6 +44,6 @@ Medicine Time is an native android application meant to aid the forgetful and bu
   
 #### Appointment List:  
   <p>
-  <img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/doctor-appointment%20list.PNG"/>
   <img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/doctor-appoint-list.PNG"/>
+  <img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/doctor-appointment%20list.PNG"/>
   </p>
