@@ -11,8 +11,8 @@ Medicine Time is an native android application meant to aid the forgetful and bu
 ### Features:
 
 #### Login Page:
-<img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/home.PNG"/>
-<img src = "https://github.com/Rahulrkman/medi-tracker/blob/master/arts/patient1.PNG"/>
+<p><img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/home.PNG"/>
+<img src = "https://github.com/Rahulrkman/medi-tracker/blob/master/arts/patient1.PNG"/></p>
 <img src = "https://github.com/Rahulrkman/medi-tracker/blob/master/arts/patient2.PNG"/>
 <img src = "https://github.com/Rahulrkman/medi-tracker/blob/master/arts/patient3.PNG"/>
 <img src = "https://github.com/Rahulrkman/medi-tracker/blob/master/arts/patient4.PNG"/>
