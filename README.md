@@ -1,5 +1,5 @@
 # MediTracker
-
+<!-- <img src="https://github.com/Rahulrkman/medi-tracker/blob/master/app/src/main/res/mipmap-xxxhdpi/apk_logo.png" style="height:20px;height:20px;"/> -->
 ### **Medicine Time**
 
 ### _The Goal:_
@@ -12,6 +12,7 @@ Medicine Time is an native android application meant to aid the forgetful and bu
 
 #### Login Page:
 <p><img src="https://github.com/Rahulrkman/medi-tracker/blob/master/arts/home.PNG"/></p>
+
 
 #### Patient Login:
 <p><img src = "https://github.com/Rahulrkman/medi-tracker/blob/master/arts/patient1.PNG"/>
